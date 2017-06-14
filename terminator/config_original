@@ -1,0 +1,138 @@
+[global_config]
+  suppress_multiple_term_dialog = True
+  title_font = Sans 10
+  title_use_system_font = False
+  window_state = fullscreen
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child0]]]
+      fullscreen = True
+      last_active_term = 60ab5a59-0d85-493f-a4e9-9344a2e729d6
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:0
+      size = 1920, 1080
+      title = sharvey@localhost:~/git/dwh-env-configs/config/msm/gb/dev1-dwh/50.analytics
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 1332
+      ratio = 0.695561357702
+      type = HPaned
+    [[[child3]]]
+      order = 1
+      parent = child1
+      position = 152
+      ratio = 0.141395348837
+      type = VPaned
+    [[[child5]]]
+      order = 1
+      parent = child3
+      position = 461
+      ratio = 0.5
+      type = VPaned
+    [[[terminal2]]]
+      order = 0
+      parent = child1
+      profile = default
+      title = main
+      type = Terminal
+      uuid = 60ab5a59-0d85-493f-a4e9-9344a2e729d6
+    [[[terminal4]]]
+      order = 0
+      parent = child3
+      profile = default
+      title = nmon
+      type = Terminal
+      uuid = dab809b2-bf4d-44e4-89cc-48abf4c6b471
+    [[[terminal6]]]
+      order = 0
+      parent = child5
+      profile = default
+      title = htop
+      type = Terminal
+      uuid = 702ad28b-3258-4733-85dc-6fa2ca913b47
+    [[[terminal7]]]
+      order = 1
+      parent = child5
+      profile = default
+      title = file search
+      type = Terminal
+      uuid = 74806537-35a0-4ff2-9d5a-bce0b25a685b
+  [[main1]]
+    [[[child0]]]
+      fullscreen = True
+      last_active_term = 60ab5a59-0d85-493f-a4e9-9344a2e729d6
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:0
+      size = 1920, 1080
+      title = sharvey@localhost:~/git/dwh-env-configs/config/msm/gb/dev1-dwh/50.analytics
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 1332
+      ratio = 0.695561357702
+      type = HPaned
+    [[[child3]]]
+      order = 1
+      parent = child1
+      position = 152
+      ratio = 0.141395348837
+      type = VPaned
+    [[[child5]]]
+      order = 1
+      parent = child3
+      position = 461
+      ratio = 0.5
+      type = VPaned
+    [[[terminal2]]]
+      command = clear
+      order = 0
+      parent = child1
+      profile = default
+      title = main
+      type = Terminal
+      uuid = 60ab5a59-0d85-493f-a4e9-9344a2e729d6
+    [[[terminal4]]]
+      command = nmon
+      order = 0
+      parent = child3
+      profile = New Profile
+      title = nmon
+      type = Terminal
+      uuid = dab809b2-bf4d-44e4-89cc-48abf4c6b471
+    [[[terminal6]]]
+      command = htop
+      order = 0
+      parent = child5
+      profile = default
+      title = htop
+      type = Terminal
+      uuid = 702ad28b-3258-4733-85dc-6fa2ca913b47
+    [[[terminal7]]]
+      command = ls -la
+      order = 1
+      parent = child5
+      profile = default
+      title = file search
+      type = Terminal
+      uuid = 74806537-35a0-4ff2-9d5a-bce0b25a685b
+[plugins]
+[profiles]
+  [[default]]
+    cursor_color = "#aaaaaa"
+    foreground_color = "#00ff00"
+    scrollback_infinite = True
+  [[htop]]
+    cursor_color = "#aaaaaa"
+    palette = "#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
+    scrollbar_position = hidden
+    use_theme_colors = True
